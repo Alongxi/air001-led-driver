@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+".\objects\system_air001xx.o"
+".\objects\startup_air001_dev.o"
+".\objects\main.o"
+".\objects\air001xx_it.o"
+".\objects\tim.o"
+".\objects\gpio.o"
+".\objects\function.o"
+".\objects\air001_ll_core_board.o"
+".\objects\air001xx_ll_utils.o"
+".\objects\air001xx_ll_gpio.o"
+".\objects\air001xx_ll_dma.o"
+".\objects\air001xx_ll_pwr.o"
+".\objects\air001xx_ll_rcc.o"
+".\objects\air001xx_ll_tim.o"
+--library_type=microlib --strict --scatter ".\Objects\Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Project.map" -o .\Objects\Project.axf

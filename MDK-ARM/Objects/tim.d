@@ -1,0 +1,23 @@
+./objects/tim.o: ..\Src\tim.c ..\Inc\main.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_rcc.h \
+  ..\Libraries\CMSIS\Device\AIR001xx\Include\air001xx.h \
+  ..\Libraries\CMSIS\Device\AIR001xx\Include\air001_dev.h \
+  ..\Libraries\CMSIS\Include\core_cm0plus.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Libraries\CMSIS\Include\core_cmInstr.h \
+  ..\Libraries\CMSIS\Include\cmsis_armcc_V6.h \
+  ..\Libraries\CMSIS\Include\core_cmFunc.h \
+  ..\Libraries\CMSIS\Device\AIR001xx\Include\system_air001xx.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_bus.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_system.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_exti.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_cortex.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_utils.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_pwr.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_dma.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_gpio.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_tim.h \
+  ..\function\function.h \
+  ..\Libraries\BSP\AIR001_Core_Board\air001_ll_Core_Board.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\Libraries\AIR001xx_HAL_Driver\Inc\air001xx_ll_usart.h
